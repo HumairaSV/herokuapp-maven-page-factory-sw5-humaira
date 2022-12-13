@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter username tomsmith1 in the username field[[ChromeDriver: chrome on WINDOWS (8ac3960855d06d6f1747dc46e797baff)] -> id: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter password SuperSecretPassword! in the password field[[ChromeDriver: chrome on WINDOWS (8ac3960855d06d6f1747dc46e797baff)] -> id: password]]]>
+    </line>
+    <line>
+      <![CDATA[Click on login button[[ChromeDriver: chrome on WINDOWS (8ac3960855d06d6f1747dc46e797baff)] -> xpath: //button[@class = 'radius']/i[@class =  'fa fa-2x fa-sign-in' ]]]]>
+    </line>
+    <line>
+      <![CDATA[Verify the invalid Credentials Error message[[ChromeDriver: chrome on WINDOWS (8ac3960855d06d6f1747dc46e797baff)] -> xpath: //div[@id = 'flash']]]]>
+    </line>
+  </reporter-output>
+  <suite name="Smoke Test" duration-ms="7205" started-at="2022-12-12T15:12:56 GMT" finished-at="2022-12-12T15:13:04 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="HomePageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.internet_the.testsuite.HomePageTest@eb21112]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.internet_the.testsuite.HomePageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="HomePageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.internet_the.testsuite.HomePageTest@eb21112]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.internet_the.testsuite.HomePageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Smoke Test" duration-ms="7205" started-at="2022-12-12T15:12:56 GMT" finished-at="2022-12-12T15:13:04 GMT">
+      <class name="com.herokuapp.internet_the.testsuite.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.internet_the.testsuite.HomePageTest@eb21112]" name="setUp" is-config="true" duration-ms="5590" started-at="2022-12-12T15:12:57 GMT" finished-at="2022-12-12T15:13:02 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.internet_the.testsuite.HomePageTest@eb21112]" name="inIt" is-config="true" duration-ms="13" started-at="2022-12-12T15:13:02 GMT" finished-at="2022-12-12T15:13:02 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.internet_the.testsuite.HomePageTest@eb21112]" name="verifyTheUsernameErrorMessage" duration-ms="740" started-at="2022-12-12T15:13:02 GMT" finished-at="2022-12-12T15:13:03 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter username tomsmith1 in the username field[[ChromeDriver: chrome on WINDOWS (8ac3960855d06d6f1747dc46e797baff)] -> id: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter password SuperSecretPassword! in the password field[[ChromeDriver: chrome on WINDOWS (8ac3960855d06d6f1747dc46e797baff)] -> id: password]]]>
+            </line>
+            <line>
+              <![CDATA[Click on login button[[ChromeDriver: chrome on WINDOWS (8ac3960855d06d6f1747dc46e797baff)] -> xpath: //button[@class = 'radius']/i[@class =  'fa fa-2x fa-sign-in' ]]]]>
+            </line>
+            <line>
+              <![CDATA[Verify the invalid Credentials Error message[[ChromeDriver: chrome on WINDOWS (8ac3960855d06d6f1747dc46e797baff)] -> xpath: //div[@id = 'flash']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheUsernameErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.internet_the.testsuite.HomePageTest@eb21112]" name="tearDown" is-config="true" duration-ms="616" started-at="2022-12-12T15:13:03 GMT" finished-at="2022-12-12T15:13:04 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.internet_the.testsuite.HomePageTest -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Smoke Test -->
+</testng-results>
